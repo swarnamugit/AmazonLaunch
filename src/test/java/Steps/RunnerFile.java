@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features= "src/test/resources/Features/Amazon.feature",
 		glue= "Steps",
-		plugin={"pretty","html:target/htmlreport.html"}
+		plugin={"pretty","json:target/Dummyreport.json"}
 		)
 public class RunnerFile extends AbstractTestNGCucumberTests { 
 
